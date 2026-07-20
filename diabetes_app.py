@@ -9,8 +9,8 @@ import numpy as np
 # Load Model
 # =========================
 
-model = pickle.load(open("best_model.pkl","rb"))
-
+with open("best_model.pkl", "rb") as f:
+    model = pickle.load(f)
 # model = pickle.load(open("final_model.pkl"))
 # =========================
 # Page Config-
