@@ -11,7 +11,7 @@ import numpy as np
 
 model = pickle.load(open("best_model.pkl","rb"))
 
-# model = pickle.load(open("final_model.pkl", "rb"))
+# model = pickle.load(open("final_model.pkl"))
 # =========================
 # Page Config-
 # =========================
